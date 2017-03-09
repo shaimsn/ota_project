@@ -1,0 +1,142 @@
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+wm geometry . 1368x820+0+23
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+ScopeSigMgr:loadpffile /afs/.ir.stanford.edu/users/m/a/mattmeza/214bfinal/it1/spice.tr0 1 openonly
+# PF:1
+wm geometry .sigmgr._PF:1 242x241+2328+540
+wm geometry .sigmgr._PF:1 1368x849+0+23
+wm geometry .sigmgr._PF:1 242x241+904+172
+wm geometry .sigmgr._PF:1 242x470+904+172
+pf:read PF:1 v(vod)
+# WF:1:1
+Graph addsignal WF:1:1 -region new -yview real(y) -xview real(x) -tracehi 2
+# Signal0
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+GrMeas:AtX Graph0 Signal0 {} xyrangeAll
+# M:0
+Graph:DSel
+GrMeas:Select Graph0 M:0 0 1
+GrMeas:MovePoint Graph0 M:0 0 99.80647473291n 0.97724359903935
+Graph:DSel
+Graph:DSel
+GrMeas:Select Graph0 M:0 0 1
+GrMeas:MoveText Graph0 M:0 0 43 69
+GrMeas:MovePoint Graph0 M:0 0 6.5614944114155n 0.96899373800149
+Graph:DSel
+Graph axisconfig {AxisY(0,0) AxisX(0)} -range {{0.87192598763923 1.0728785587779} {21.6959n -11.7202n}}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+GrMeas:Select Graph0 M:0 0 1
+GrMeas:MovePoint Graph0 M:0 0 9.6136522279082n 0.97640332656362
+Graph:DSel
+Graph axisconfig {AxisY(0,0) AxisX(0)} -range {{0.99873246486387 0.94553913720951} {1.4855n 22.406n}}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+GrMeas:Select Graph0 M:0 0 1
+GrMeas:MovePoint Graph0 M:0 0 9.1371972602813n 0.97627302715254
+Graph:DSel
+Graph:DSel
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons

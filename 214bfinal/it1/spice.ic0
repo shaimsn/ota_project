@@ -1,0 +1,37 @@
+* "simulator" "HSPICE" 
+* "version" "I-2013.12-SP2 64-BIT"
+* "format" "HSP"
+* "rundate" "11:32:00 03/09/2017 "
+* "netlist" "spice.sp "
+* "runtitle" "*matthew meza"
+* time =    0.            
+* temperature =   25.0000        
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc=   1.0000p       
+.nodeset
++ vdd =   1.8000        
++ vim = 800.0000m       
++ vim1 = 800.0000m       
++ vip = 800.0000m       
++ vip1 = 800.0000m       
++ vod = -43.3681n       
++ vom =   1.0110        
++ vop =   1.0110        
++ vsc = 800.0000m       
++ vsd =   0.            
++ vsm = 800.0000m       
++ vsp = 800.0000m       
++ x2.n002 =   1.5819        
++ x2.n003 =   1.5819        
++ x2.n004 =   1.5852        
++ x2.n005 = 442.8951m       
++ x2.n006 = 442.8951m       
++ x2.n008 = 548.0152m       
++ x2.tn = 196.6232m       
++ x2.vbias1 =   1.2714        
++ x2.vbias2 = 994.2273m       
++ x2.vbias3 =   1.1000        
++ x2.voc =   1.0110        
++ x2.vocd =   1.0000        
+***   END: Saved Operating Point ***                     

@@ -1,0 +1,86 @@
+***** HSPICE -- I-2013.12-SP2 64-BIT (May 27 2014) RHEL64 ******
+ Input File: spice.sp
+ lic:
+ lic: FLEXlm: v10.9.8
+ lic: USER:   mattmeza             HOSTNAME: corn03.stanford.edu
+ lic: HOSTID: b82a72de68a5         PID:      9267
+ lic: Using FLEXlm license file:
+ lic: 27000@cadlic0
+ lic: Checkout 1 hspice
+ lic: License/Maintenance for hspice will expire on 06-nov-2017/2016.06
+ lic: 1(in_use)/200(total) FLOATING license(s) on SERVER 27000@cadlic0
+ lic:
+ init: begin read circuit files,  cpu clock=  4.60E-01
+       option search = /usr/class/ee/synopsys/hspice/I-2013.12-SP2/hspi
+                         ce/parts/ad
+       option search = /usr/class/ee/synopsys/hspice/I-2013.12-SP2/hspi
+                         ce/parts/ad
+       option search = /usr/class/ee/synopsys/hspice/I-2013.12-SP2/hspi
+                         ce/parts/behave
+       option search = /usr/class/ee/synopsys/hspice/I-2013.12-SP2/hspi
+                         ce/parts/bjt
+       option search = /usr/class/ee/synopsys/hspice/I-2013.12-SP2/hspi
+                         ce/parts/burr_brn
+       option search = /usr/class/ee/synopsys/hspice/I-2013.12-SP2/hspi
+                         ce/parts/comlinear
+       option search = /usr/class/ee/synopsys/hspice/I-2013.12-SP2/hspi
+                         ce/parts/dio
+       option search = /usr/class/ee/synopsys/hspice/I-2013.12-SP2/hspi
+                         ce/parts/fet
+       option search = /usr/class/ee/synopsys/hspice/I-2013.12-SP2/hspi
+                         ce/parts/lin_tech
+       option search = /usr/class/ee/synopsys/hspice/I-2013.12-SP2/hspi
+                         ce/parts/pci
+       option search = /usr/class/ee/synopsys/hspice/I-2013.12-SP2/hspi
+                         ce/parts/signet
+       option search = /usr/class/ee/synopsys/hspice/I-2013.12-SP2/hspi
+                         ce/parts/ti
+       option search = /usr/class/ee/synopsys/hspice/I-2013.12-SP2/hspi
+                         ce/parts/tline
+       option search = /usr/class/ee/synopsys/hspice/I-2013.12-SP2/hspi
+                         ce/parts/xilinx
+       option runlvl
+       option post
+       option brief
+       option accurate
+ init: end read circuit files,  cpu clock=  4.60E-01 peak memory=       179 mb
+ init: begin check errors,  cpu clock=  4.60E-01
+ init: end check errors,  cpu clock=  4.60E-01 peak memory=       180 mb
+ init: begin setup matrix, pivot=     0 cpu clock=  4.60E-01
+       establish matrix -- done,  cpu clock=  4.60E-01 peak memory=       180 mb
+       re-order matrix -- done,  cpu clock=  4.60E-01 peak memory=       180 mb
+ init: end setup matrix,  cpu clock=  4.60E-01 peak memory=       180 mb
+ output: spice.sw0
+ sweep: dc dc0    begin, #sweeps=**** cpu clock=  4.60E-01
+ sweep: dc dc0    end,  cpu clock=  1.43E+00 peak memory=       180 mb
+ dcop: begin dcop,  cpu clock=  1.43E+00
+ dcop: end dcop,  cpu clock=  1.44E+00 peak memory=       180 mb  tot_iter=     276
+ output: spice.cx0
+ sweep: ac ac0    begin, #sweeps=5001 cpu clock=  1.44E+00
+ ac: frequency=    1.00E+06
+ ac: frequency=    3.16E+06
+ ac: frequency=    1.00E+07
+ ac: frequency=    3.16E+07
+ ac: frequency=    1.00E+08
+ ac: frequency=    3.16E+08
+ ac: frequency=    1.00E+09
+ ac: frequency=    3.16E+09
+ ac: frequency=    1.00E+10
+ ac: frequency=    3.16E+10
+ ac: frequency=    1.00E+11
+ sweep: ac ac0    end,  cpu clock=  1.59E+00 peak memory=       180 mb
+ output: spice.tr0
+ sweep: tran tran0    begin, stop_t=  1.00E-07 #sweeps=**** cpu clock=  1.60E+00
+ tran: time= 1.0006E-08 tot_iter=    2029 conv_iter=    1005 cpu clock= 1.70E+00
+ tran: time= 2.0006E-08 tot_iter=    4029 conv_iter=    2005 cpu clock= 1.77E+00
+ tran: time= 3.0006E-08 tot_iter=    6029 conv_iter=    3005 cpu clock= 1.83E+00
+ tran: time= 4.0006E-08 tot_iter=    8029 conv_iter=    4005 cpu clock= 1.90E+00
+ tran: time= 5.0006E-08 tot_iter=   10029 conv_iter=    5005 cpu clock= 1.97E+00
+ tran: time= 6.0006E-08 tot_iter=   12029 conv_iter=    6005 cpu clock= 2.00E+00
+ tran: time= 7.0006E-08 tot_iter=   14029 conv_iter=    7005 cpu clock= 2.02E+00
+ tran: time= 8.0006E-08 tot_iter=   16029 conv_iter=    8005 cpu clock= 2.05E+00
+ tran: time= 9.0006E-08 tot_iter=   18029 conv_iter=    9005 cpu clock= 2.07E+00
+ tran: time= 1.0000E-07 tot_iter=   20029 conv_iter=   10005 cpu clock= 2.10E+00
+ sweep: tran tran0    end,  cpu clock=  2.10E+00 peak memory=       180 mb
+>info:         ***** hspice job concluded
+ lic: Release hspice token(s)

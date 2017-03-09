@@ -1,0 +1,156 @@
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+wm geometry . 1368x820+0+23
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+ScopeSigMgr:loadpffile /afs/.ir.stanford.edu/users/m/a/mattmeza/214bfinal/it2/spice.tr0 1 openonly
+# PF:1
+wm geometry .sigmgr._PF:1 242x241+2328+540
+wm geometry .sigmgr._PF:1 1368x849+0+23
+wm geometry .sigmgr._PF:1 242x241+951+80
+wm geometry .sigmgr._PF:1 242x486+951+80
+pf:read PF:1 v(vod)
+# WF:1:1
+Graph addsignal WF:1:1 -region new -yview real(y) -xview real(x) -tracehi 2
+# Signal0
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+GrMeas:Levels Graph0 Signal0 Maximum xyrangeAll
+# M:0
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+ScopeSigMgr:Reload 0 {{(1) spice.tr0}}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+ScopeSigMgr:Reload 0 {{(1) spice.tr0}}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+Graph:Select Graph0
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+GrMeas:AtX Graph0 Signal3 {} xyrangeAll
+# M:2
+Graph:DSel
+GrMeas:Select Graph0 M:2 0 1
+GrMeas:MoveText Graph0 M:2 0 4 45
+GrMeas:MovePoint Graph0 M:2 0 1.05 0.9570295
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons

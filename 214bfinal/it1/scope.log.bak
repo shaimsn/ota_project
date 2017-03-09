@@ -1,0 +1,110 @@
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+wm geometry . 1368x820+0+23
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+ScopeSigMgr:loadpffile /afs/.ir.stanford.edu/users/m/a/mattmeza/214bfinal/it1/spice.tr0 1 openonly
+# PF:1
+pf:read PF:1 v(vod)
+# WF:1:1
+Graph addsignal WF:1:1 -region new -yview real(y) -xview real(x) -tracehi 2
+# Signal0
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+Graph:Select Graph0
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+GrMeas:Levels Graph0 Signal0 Maximum xyrangeAll
+# M:0
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+GrMeas:AtX Graph0 Signal0 {} xyrangeAll
+# M:1
+Graph:DSel
+GrMeas:Select Graph0 M:1 0 1
+GrMeas:MoveText Graph0 M:1 0 11 46
+Graph:DSel
+GrMeas:Select Graph0 M:1 0 2
+GrMeas:MoveText Graph0 M:1 0 101 96
+GrMeas:MovePoint Graph0 M:1 0 99.806591381048n 0.93763633747994
+GrMeas:MovePoint Graph0 M:1 0 8.4122079987801n 0.93560117500245
+Graph:DSel
+Graph axisconfig {AxisY(0,0) AxisX(0)} -range {{0.8541868489904 0.96648142763116} {23.9234n -1.91796n}}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+GrMeas:Select Graph0 M:1 0 1
+GrMeas:MovePoint Graph0 M:1 0 9.1577947508783n 0.93690377999314
+Graph:DSel
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
