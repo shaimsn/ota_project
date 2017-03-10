@@ -1,7 +1,7 @@
 * "simulator" "HSPICE" 
 * "version" "I-2013.12-SP2 64-BIT"
 * "format" "HSP"
-* "rundate" "11:53:28 03/09/2017 "
+* "rundate" "18:10:42 03/09/2017 "
 * "netlist" "spice.sp "
 * "runtitle" "*matthew meza"
 * time =    0.            
